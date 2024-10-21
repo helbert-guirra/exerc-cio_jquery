@@ -1,0 +1,91 @@
+body {
+    background-color: gainsboro;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header{
+    background-color: #e4ebee;
+    padding: 16px 0px;
+    color: #fff;
+    display: flex;
+    border-bottom: 14px solid #a6c6ca;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h1{
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+   
+}
+form {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 26px;
+}
+img {
+    height: 100px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#botao-cancelar{
+    order: none;
+    background-color: rgb(170, 56, 28);
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#lista-tarefas {
+    list-style-type: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#lista-tarefas li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#lista-tarefas li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+footer p {
+    margin: 5px 0;
+}
